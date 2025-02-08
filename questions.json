@@ -1,0 +1,60 @@
+{
+  "Technical": {
+    "How do I reset my NinjaTrader workspace?": "Go to 'Documents > NinjaTrader' and delete the workspace files, then restart the platform.",
+    "Why is my stop loss not triggering?": "Check if the stop order is correctly placed and ensure your broker supports stop orders.",
+    "How do I check if my data feed is working?": "Go to NinjaTrader > Control Center > Connections. Ensure your broker connection is active.",
+    "How do I update my algo settings?": "Modify the strategy settings in the NinjaTrader 'Strategies' tab and restart the algo.",
+    "Can I trade manually while running the algo?": "Yes, but be careful as manual trades might interfere with the algo’s logic.",
+    "What is slippage and how does it affect my trades?": "Slippage occurs when orders are filled at a different price due to market volatility.",
+    "How do I enable one-click trading?": "Enable it under NinjaTrader settings in the 'SuperDOM' or 'Chart Trader' panel.",
+    "How do I change my order execution speed?": "Adjust execution speed settings in NinjaTrader under ‘Order Execution Preferences’.",
+    "What is a ghost order in NinjaTrader?": "A ghost order is an order that appears in your UI but is not being executed due to a disconnection issue."
+  },
+
+  "Strategies": {
+    "What is the best risk-reward ratio to use?": "A good standard is 1:2, meaning for every $1 risked, target $2 profit.",
+    "How do I backtest my strategy?": "Use NinjaTrader's Strategy Analyzer with historical data to evaluate performance.",
+    "Should I run the algo during high-impact news events?": "It’s recommended to reduce position size or disable trading if you can’t monitor it.",
+    "How do I optimize my strategy settings?": "Use NinjaTrader's Strategy Analyzer and adjust indicators to improve performance.",
+    "Which indicators work best with algo trading?": "Common indicators include Moving Averages, Bollinger Bands, and RSI.",
+    "What is the difference between market orders and limit orders?": "Market orders execute immediately at the best available price, while limit orders execute at a set price or better.",
+    "Why does my algo stop trading randomly?": "Check the logs for errors, verify your connection, and ensure settings allow automated trading.",
+    "How do I know if my algo is performing well?": "Analyze backtest results, live trading performance, and key metrics like win rate and drawdown.",
+    "What is the best strategy for beginners?": "A simple trend-following strategy using moving averages and stop-loss levels is recommended."
+  },
+
+  "Accounts": {
+    "How do I withdraw from my PA accounts?": "Best to withdraw after reaching $58K to avoid the Apex trailing stop.",
+    "Can I run multiple prop firm accounts at once?": "Yes, but ensure each has correct lot sizing to manage risk properly.",
+    "How do I get my accounts set up?": "Watch the post-onboarding videos and book a setup call if needed.",
+    "What is the minimum balance required to keep my account active?": "Varies by broker, but usually around $50K for prop firms.",
+    "How do I reset my evaluation account?": "Log in to your prop firm portal and follow the reset procedure.",
+    "Can I trade in multiple markets with one account?": "Yes, if your broker supports multi-asset trading.",
+    "How do I upgrade my account type?": "Contact your broker or prop firm to switch to a funded or professional account.",
+    "What happens if I don’t meet the profit target?": "Your evaluation account may reset, or you might need to start a new challenge."
+  },
+
+  "Risk Management": {
+    "How do I reduce my risk exposure?": "Right-click your strategy in NinjaTrader > Change 'Quantity' to a lower number.",
+    "Why is my drawdown higher than expected?": "Review strategy settings, risk parameters, and ensure trade execution aligns with backtesting results.",
+    "What leverage should I use for trading?": "Depends on risk tolerance, but lower leverage (1:10 or 1:20) is safer for algorithmic trading.",
+    "How do I set a stop-loss effectively?": "Set it based on historical volatility and risk tolerance.",
+    "What is the maximum recommended daily loss?": "A good rule is to risk no more than 2% of your capital per trade.",
+    "How do I avoid overtrading?": "Set a daily trade limit and stick to your strategy.",
+    "What is the difference between fixed and trailing stop losses?": "A fixed stop-loss stays at a set level, while a trailing stop moves with price action to lock in profits.",
+    "Why is my account being flagged for risk violations?": "You may be exceeding leverage limits or violating trading rules set by your broker or prop firm.",
+    "Should I hedge my positions?": "Hedging can reduce risk but also limit profits. Use it only when necessary."
+  },
+
+  "General": {
+    "Should I use a VPS for algo trading?": "Yes, a VPS ensures stable uptime and minimizes disruptions from power outages or internet issues.",
+    "How can I contact support for help?": "Join the Discord community and create a support ticket in the #support channel.",
+    "What is the difference between a retail and prop trading account?": "A retail account is funded by the trader, while a prop account is funded by a firm, usually requiring an evaluation.",
+    "How do I avoid common trading mistakes?": "Stick to your strategy, manage risk, and avoid emotional trading.",
+    "What are the trading hours for major markets?": "The US stock market is open from 9:30 AM to 4 PM EST, while forex is open 24/5.",
+    "How do I learn more about algorithmic trading?": "Check out courses on Udemy, Coursera, and YouTube tutorials.",
+    "What is the best trading book for beginners?": "‘Trading in the Zone’ by Mark Douglas is highly recommended.",
+    "How do I track my trades on mobile?": "Download Microsoft Remote Desktop or RDClient and connect to your V2 Cloud.",
+    "What’s the best way to stay updated with market news?": "Use platforms like Bloomberg, Reuters, and Forex Factory for real-time updates."
+  }
+}
